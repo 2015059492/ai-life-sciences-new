@@ -14,3 +14,20 @@
 .subpage:has(.contact-layout){min-height:60vh}.about-images{display:none}
 .target .audience img{object-fit:cover;object-position:center}
 @media(max-width:560px){.footer{gap:14px;padding:23px 5%}.footer h2{font-size:23px}}
+/* Larger, responsive lesson videos */
+.lesson-video {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16 / 9;
+  margin: 30px 0 45px;
+}
+
+.lesson-video iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 8px;
+}
